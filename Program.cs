@@ -28,11 +28,11 @@ namespace IterationStatements
                 if ((value_of_input > 0) && (value_of_input <= 100))
                 {
                     Console.WriteLine("Executing a Do While Loop!");
-                    Console.WriteLine("The Do While Loop will iterate " + value_of_input.ToString() + " times.");
+                    Console.WriteLine("You have entered " + value_of_input.ToString());
                     // Here is the Do While Loop
                     do
                     {
-                        Console.WriteLine("The value of the iterative variable is: " + value_of_input.ToString());
+                        Console.WriteLine("This is the current integer value in the loop: " + value_of_input.ToString());
                         value_of_input--;
                     } while (value_of_input > 0);
                     Console.WriteLine("Press any key to exit the program ...");
